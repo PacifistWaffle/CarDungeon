@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "CarDungeon/Library": true,
+        "CarDungeon/Logs": true,
+        "CarDungeon/Packages": true,
+        "CarDungeon/ProjectSettings": true
+    }
+}
