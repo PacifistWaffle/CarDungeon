@@ -7,12 +7,15 @@ public class DragnDrop : MonoBehaviour
 {
     bool overlap;
     bool dragging;
-    BoxCollider2D collider;
+    BoxCollider2D bcollider;
+
+    public int boardWidth=2;
+    public int boardHeight=2;
 
     // Start is called before the first frame update
     void Start()
     {
-        collider = GetComponent<BoxCollider2D>();
+        bcollider = GetComponent<BoxCollider2D>();
         overlap = false;
         dragging = false;
     }
@@ -23,7 +26,7 @@ public class DragnDrop : MonoBehaviour
         Vector2 mousepos=Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
-            if (collider == Physics2D.OverlapPoint(mousepos))
+            if (bcollider == Physics2D.OverlapPoint(mousepos))
             {
                 overlap = true;
             }
@@ -38,7 +41,11 @@ public class DragnDrop : MonoBehaviour
 
         if (dragging)
         {
-            this.transform.position = mousepos;
+            if(Mathf.Abs(mousepos.x)<=boardWidth && Mathf.Abs(mousepos.y)<=boardHeight)
+            {
+                mousepos = new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y));
+            }
+            this.transform.position =mousepos;
         }
 
         if (Input.GetMouseButtonUp(0))
