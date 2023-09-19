@@ -7,6 +7,7 @@ public class DragnDrop : MonoBehaviour
 {
     bool overlap;
     bool dragging;
+    bool placed;
     BoxCollider2D bcollider;
 
     public int boardWidth=2;
@@ -18,6 +19,7 @@ public class DragnDrop : MonoBehaviour
         bcollider = GetComponent<BoxCollider2D>();
         overlap = false;
         dragging = false;
+        placed = false;
     }
 
     // Update is called once per frame
@@ -34,7 +36,7 @@ public class DragnDrop : MonoBehaviour
             {
                 overlap = false;
             }
-            if (overlap) { 
+            if (overlap && !placed) { 
                 dragging = true;
             }
         }
@@ -45,7 +47,7 @@ public class DragnDrop : MonoBehaviour
             {
                 mousepos = new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y));
             }
-            this.transform.position =mousepos;
+            this.transform.position = mousepos;
         }
 
         if (Input.GetMouseButtonUp(0))
