@@ -7,20 +7,15 @@ using UnityEngine.UI;
 
 public class drawCards : MonoBehaviour
 {
-    public GameObject CP = GameObject.FindWithTag("drawPile");
-
-    void Start()
+    public GameObject[] blocks = new GameObject[5];
+    public GameObject logic;
+    GameObject card;
+    public void OnButtonPress()
     {
-        CP.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
-    }
-
-    void Update()
-    {
-
-    }
-
-    private void OnMouseOver()
-    {
-       
+        for (int i = 0; i < 3; i++)
+        {
+            card = Instantiate(blocks[Random.Range(0, 5)], new Vector3(i - 1, -4, 0), this.transform.rotation);
+            card.GetComponent<DragnDrop>().go = logic;
+        }
     }
 }
