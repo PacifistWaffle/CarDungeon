@@ -10,13 +10,14 @@ public class DragnDrop : MonoBehaviour
     bool placed;
     BoxCollider2D bcollider;
 
-    public int boardWidth=2;
-    public int boardHeight=2;
+    public GameObject go;
+    logic comp;
 
     // Start is called before the first frame update
     void Start()
     {
         bcollider = GetComponent<BoxCollider2D>();
+        comp = go.GetComponent<logic>();
         overlap = false;
         dragging = false;
         placed = false;
@@ -43,7 +44,7 @@ public class DragnDrop : MonoBehaviour
 
         if (dragging)
         {
-            if(Mathf.Abs(mousepos.x)<=boardWidth && Mathf.Abs(mousepos.y)<=boardHeight)
+            if(Mathf.Abs(mousepos.x)<=comp.boardWidth && Mathf.Abs(mousepos.y)<=comp.boardHeight)
             {
                 mousepos = new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y));
             }

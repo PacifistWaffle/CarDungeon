@@ -9,7 +9,7 @@ public class InheritSize : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DragnDrop comp = go.GetComponent<DragnDrop>();
-        this.transform.localScale=new Vector2(comp.boardWidth*(float)2.5,comp.boardHeight*(float)2.5);
+        logic comp = go.GetComponent<logic>();
+        this.transform.localScale=new Vector2(comp.boardWidth*(float)2+(float)1.5,comp.boardHeight*(float)2+(float)1.5);
     }
 }
