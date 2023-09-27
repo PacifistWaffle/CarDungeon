@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class RotateCards : MonoBehaviour
 {
-    public bool oneTime = false;
+    bool oneTime = false;
 
     void Start()
     {
+
 
     }
 
