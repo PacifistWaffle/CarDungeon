@@ -246,6 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boardHeight: 2
   boardWidth: 5
+  lockedposition: []
 --- !u!4 &1070050897
 Transform:
   m_ObjectHideFlags: 0

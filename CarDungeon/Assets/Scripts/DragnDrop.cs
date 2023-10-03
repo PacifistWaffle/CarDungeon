@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -44,7 +45,7 @@ public class DragnDrop : MonoBehaviour
 
         if (dragging)
         {
-            if(Mathf.Abs(mousepos.x)<=comp.boardWidth && Mathf.Abs(mousepos.y)<=comp.boardHeight)
+            if (Mathf.Abs(mousepos.x) <= comp.boardWidth && Mathf.Abs(mousepos.y) <= comp.boardHeight && Array.IndexOf(comp.lockedposition, new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y)))==-1)
             {
                 mousepos = new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y));
             }
