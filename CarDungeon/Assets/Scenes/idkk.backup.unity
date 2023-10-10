@@ -836,10 +836,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082912554}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:CarDungeon/Assets/Scenes/idkk.backup.unity
-=======
-=======
->>>>>>> parent of 64c853e (Update idkk.unity):CarDungeon/Assets/Scenes/idkk.unity
 --- !u!1 &1250249192
 GameObject:
   m_ObjectHideFlags: 0
