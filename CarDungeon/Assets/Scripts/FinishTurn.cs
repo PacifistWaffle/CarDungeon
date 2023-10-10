@@ -11,9 +11,14 @@ public class FinishTurn : MonoBehaviour
         blocks = GameObject.FindGameObjectsWithTag("drawPile");
         for(int i=0; i<blocks.Length; i++)
         {
-            if (blocks[i].GetComponent<DragnDrop>() == true)
+            if (blocks[i].GetComponent<DragnDrop>().changeTag == true)
             {
-
+                blocks[i].tag="placedCard";
+                blocks[i].GetComponent<DragnDrop>().enabled = false;
+            }
+            else
+            {
+                Destroy(blocks[i]);
             }
         }
     }
