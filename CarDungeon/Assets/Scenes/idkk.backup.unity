@@ -982,7 +982,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1082912554}
   m_CullTransparentMesh: 1
 =======
->>>>>>> 812eab0fe112be47e67e9299ddda8fd3054a19f3
 --- !u!1 &1250249192
 GameObject:
   m_ObjectHideFlags: 0
