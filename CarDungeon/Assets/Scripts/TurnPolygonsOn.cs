@@ -6,9 +6,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TurnPolygonsOn : MonoBehaviour
-{ 
-    public void OnClick()
-    {
+{
+
+    public void OnButtonPress()
+    { 
 
     }
 }
