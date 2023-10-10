@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8089985155782985216}
   m_Layer: 0
   m_Name: oby dzialalo plis
-  m_TagString: Untagged
+  m_TagString: drawPile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

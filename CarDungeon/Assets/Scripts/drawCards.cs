@@ -12,10 +12,13 @@ public class drawCards : MonoBehaviour
     GameObject card;
     public void OnButtonPress()
     {
-        for (int i = 0; i < 3; i++)
+        if (GameObject.FindGameObjectsWithTag("drawPile").Length==0)
         {
-            card = Instantiate(blocks[Random.Range(0, 5)], new Vector3(i - 1, -4, 0), this.transform.rotation);
-            card.GetComponent<DragnDrop>().go = logic;
+            for (int i = 0; i < 3; i++)
+            {
+                card = Instantiate(blocks[Random.Range(0, 5)], new Vector3(i - 1, -4, 0), this.transform.rotation);
+                card.GetComponent<DragnDrop>().go = logic;
+            }
         }
     }
 }
