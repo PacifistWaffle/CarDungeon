@@ -49,7 +49,7 @@ public class DragnDrop : MonoBehaviour
 
         if (dragging)
         {
-            if (Mathf.Abs(mousepos.x) <= comp.boardWidth && Mathf.Abs(mousepos.y) <= comp.boardHeight && Array.IndexOf(comp.lockedposition, new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y))) == -1)
+            if (Mathf.Abs(mousepos.x) <= comp.boardWidth && Mathf.Abs(mousepos.y) <= comp.boardHeight && comp.lockedposition.IndexOf(new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y))) == -1)
             {
                 mousepos = new Vector2(Mathf.Round(mousepos.x), Mathf.Round(mousepos.y));
                 snapped = true;

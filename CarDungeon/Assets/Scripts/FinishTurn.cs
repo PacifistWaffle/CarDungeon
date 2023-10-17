@@ -1,10 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FinishTurn : MonoBehaviour
 {
     GameObject[] blocks;
+    public GameObject logic;
+    logic comp;
+
+    private void Start()
+    {
+        comp=logic.GetComponent<logic>();
+    }
 
     public void OnClick()
     {
@@ -15,6 +23,7 @@ public class FinishTurn : MonoBehaviour
             {
                 blocks[i].tag="placedCard";
                 blocks[i].GetComponent<DragnDrop>().enabled = false;
+                comp.lockedposition.Add(blocks[i].transform.position);
             }
             else
             {

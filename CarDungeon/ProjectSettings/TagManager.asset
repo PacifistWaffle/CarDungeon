@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - drawPile
+  - placedCard
   layers:
   - Default
   - TransparentFX
