@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b94ab4298d3164fa1136553224e527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logic: {fileID: 880718886}
 --- !u!114 &132634089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13586006094bfa04aba94111238cc4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardHeight: 2
+  boardHeight: 3
   boardWidth: 5
   lockedposition: []
 --- !u!4 &880718888
@@ -806,9 +807,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 132634089}
-        m_TargetAssemblyTypeName: TurnPolygonsOn, Assembly-CSharp
-        m_MethodName: OnButtonPress
+      - m_Target: {fileID: 132634088}
+        m_TargetAssemblyTypeName: FinishTurn, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -818,9 +819,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 132634088}
-        m_TargetAssemblyTypeName: FinishTurn, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 132634089}
+        m_TargetAssemblyTypeName: TurnPolygonsOn, Assembly-CSharp
+        m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
