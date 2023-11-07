@@ -21,12 +21,12 @@ public class RotateCards : MonoBehaviour
 
     public void OnMouseOver()
     {
-        if (Input.GetKeyDown(KeyCode.A) && oneTime == false)
+        if (Input.GetKeyDown(KeyCode.Q) && oneTime == false)
         {
             transform.Rotate(Vector3.forward * 90);
             oneTime = true;
         }
-        else if (Input.GetKeyDown(KeyCode.D) && oneTime == false)
+        else if (Input.GetKeyDown(KeyCode.E) && oneTime == false)
         {
             transform.Rotate(Vector3.back * 90);
             oneTime = true;
