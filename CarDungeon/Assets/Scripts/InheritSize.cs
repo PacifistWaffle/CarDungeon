@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 public class InheritSize : MonoBehaviour
@@ -10,6 +11,8 @@ public class InheritSize : MonoBehaviour
     void Start()
     {
         logic comp = go.GetComponent<logic>();
-        this.transform.localScale=new Vector2(comp.boardWidth*(float)5+(float)1.5,comp.boardHeight*(float)5+(float)1.5);
+        if(comp.boardHeight % 2 == 1) comp.boardHeight++;
+        if (comp.boardWidth % 2 == 1) comp.boardWidth++;
+        this.transform.localScale=new Vector2(comp.boardWidth*(float)2+(float)2,comp.boardHeight*(float)2+(float)2);
     }
 }
