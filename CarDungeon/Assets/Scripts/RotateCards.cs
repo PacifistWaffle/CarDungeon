@@ -7,18 +7,6 @@ public class RotateCards : MonoBehaviour
 {
     bool oneTime = false;
 
-    void Start()
-    {
-
-
-    }
-
-
-    void Update()
-    {
-
-    }
-
     public void OnMouseOver()
     {
         if (Input.GetKeyDown(KeyCode.Q) && oneTime == false)
