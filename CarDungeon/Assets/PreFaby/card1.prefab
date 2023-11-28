@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 790133243412931104, guid: 702f8a662ac77b843a46cc32ecb9f02e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 32.5
+      value: 9.62
       objectReference: {fileID: 0}
     - target: {fileID: 790133243412931104, guid: 702f8a662ac77b843a46cc32ecb9f02e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 32.5
+      value: 9.62
       objectReference: {fileID: 0}
     - target: {fileID: 2429925327147488029, guid: 702f8a662ac77b843a46cc32ecb9f02e, type: 3}
       propertyPath: m_LocalScale.x
@@ -103,7 +103,7 @@ PrefabInstance:
     - target: {fileID: 7421205949313891178, guid: 702f8a662ac77b843a46cc32ecb9f02e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8568c0f02d8ab414cba464c9ad1ba707, type: 3}
+      objectReference: {fileID: 21300000, guid: c047a38aaed3aef449fd64c31471f6c9, type: 3}
     - target: {fileID: 7421205949313891178, guid: 702f8a662ac77b843a46cc32ecb9f02e, type: 3}
       propertyPath: m_DrawMode
       value: 0
@@ -176,7 +176,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32.5, y: 32.5}
+    oldSize: {x: 9.62, y: 9.62}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -226,7 +226,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32.5, y: 32.5}
+    oldSize: {x: 9.62, y: 9.62}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
