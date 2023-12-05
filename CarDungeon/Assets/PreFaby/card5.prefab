@@ -11,42 +11,46 @@ PrefabInstance:
     - target: {fileID: 20684178710996688, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 43bae392f176f3c4b8e155d1cd7f45e1, type: 3}
+      objectReference: {fileID: 21300000, guid: fbeec3edd4948c641a6c9b510f70711b, type: 3}
+    - target: {fileID: 20684178710996688, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1745532738999990582, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Name
       value: card5
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
-      value: -16.319157
+      value: -10.291511
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-      value: -4.4437947
+      value: -2.880168
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-      value: -4.369197
+      value: -6.165899
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-      value: -16.328522
+      value: -10.3636055
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: -4.260219
+      value: -2.9851403
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -14.836632
+      value: -10.261598
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: -4.3388023
+      value: -2.9478068
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: -4.415539
+      value: -2.9677484
       objectReference: {fileID: 0}
     - target: {fileID: 5119681755943358119, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89,20 +93,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: -4.3985353
+      value: -3.0654984
       objectReference: {fileID: 0}
     - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: 4.512904
+      value: 3.0071957
       objectReference: {fileID: 0}
     - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: -4.2602196
+      value: -3.0430984
       objectReference: {fileID: 0}
     - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: 16.171482
+      value: 10.438206
       objectReference: {fileID: 0}
     - target: {fileID: 7348282761350422315, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
@@ -122,7 +130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7801090682710294426, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 32.5
+      value: 20.48
       objectReference: {fileID: 0}
     - target: {fileID: 9155881070764583241, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
@@ -195,18 +203,18 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32.5, y: 32.5}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.4959702, y: -4.400919}
-      - {x: 4.49597, y: -16.171492}
-      - {x: 16.25, y: -16.25}
-      - {x: 16.328585, y: -4.4794216}
+    - - {x: 2.9311006, y: -3.0110369}
+      - {x: 2.9890585, y: -10.322392}
+      - {x: 10.454186, y: -10.227156}
+      - {x: 10.59073, y: -2.9737132}
   m_UseDelaunayMesh: 0
 --- !u!60 &75445823449442982
 PolygonCollider2D:
@@ -244,18 +252,18 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32.5, y: 32.5}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.4173865, y: 16.407042}
-      - {x: 4.4173856, y: 4.5579615}
-      - {x: 16.25, y: 4.4794292}
-      - {x: 16.25, y: 16.25}
+    - - {x: 2.9104753, y: 10.384207}
+      - {x: 2.968432, y: 2.9943397}
+      - {x: 10.396229, y: 3.031634}
+      - {x: 10.33827, y: 10.111339}
   m_UseDelaunayMesh: 0
 --- !u!114 &6600475521978254413
 MonoBehaviour:

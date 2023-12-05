@@ -11,42 +11,50 @@ PrefabInstance:
     - target: {fileID: 20684178710996688, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 626150feebbb3d94bade574762edbb92, type: 3}
+      objectReference: {fileID: 21300000, guid: 437014081ff008e4f863750e9e0f8628, type: 3}
+    - target: {fileID: 20684178710996688, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1745532738999990582, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Name
       value: card3
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
-      value: -16.303774
+      value: -10.329311
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-      value: -4.4668493
+      value: -2.9019744
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-      value: -4.4986086
+      value: -6.1807394
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-      value: -16.17915
+      value: -10.325371
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: -4.591896
+      value: -2.9097662
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -11.858284
+      value: -10.351375
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: -4.5210056
+      value: -3.012889
       objectReference: {fileID: 0}
     - target: {fileID: 3745739217038948392, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: -4.4155393
+      value: -2.9086204
       objectReference: {fileID: 0}
     - target: {fileID: 5119681755943358119, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -88,13 +96,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6321069993472258471, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7801090682710294426, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Size.x
-      value: 32.658764
+      value: 20.596355
       objectReference: {fileID: 0}
     - target: {fileID: 7801090682710294426, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
       propertyPath: m_Offset.x
-      value: -0.07396889
+      value: -0.010034561
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7348282761350422315, guid: e2343d238b19724428a98ddab9a569e1, type: 3}
@@ -147,16 +159,16 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 32.5, y: 32.5}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.379225, y: -4.433608}
-      - {x: 4.379221, y: -16.17917}
-      - {x: 16.25, y: -16.25}
-      - {x: 16.108217, y: -4.4336014}
+    - - {x: 2.9291122, y: -2.8687332}
+      - {x: 3.0451176, y: -10.383348}
+      - {x: 10.217532, y: -10.280311}
+      - {x: 10.133755, y: -2.8687265}
   m_UseDelaunayMesh: 0
